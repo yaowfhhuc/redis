@@ -17,6 +17,7 @@ import me.test.redis.myredis.pojo.MSEvent;
  *
  */
 public class App {
+	
 	public static void main(String[] args) {
 		final String key = UUID.randomUUID().toString();
 		JedisConnectionFactory conn;
